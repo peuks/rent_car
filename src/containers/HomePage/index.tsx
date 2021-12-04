@@ -6,16 +6,17 @@ interface Props {}
 
 const PageContainer = styled.div`
   ${tw`
-  
+  flex
+  flex-col  
+  h-full
+  items-center
+  overflow-x-hidden
+  w-full
   `}
 `;
 
 const HomePage = (props: Props) => {
-  return (
-    <PageContainer>
-      <h1>yoyo</h1>
-    </PageContainer>
-  );
+  return <PageContainer></PageContainer>;
 };
 
 export default HomePage;
