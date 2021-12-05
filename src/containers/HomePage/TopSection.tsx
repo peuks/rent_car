@@ -1,6 +1,6 @@
 import { SCREENS } from "@components/responsive";
 import blob from "@images/blob.svg";
-import mclarenOrangeBig from "@images/mclaren-orange-big.png";
+import miniFrigo from "@images/miniFrigo.png";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { Button } from "@components/button/";
@@ -15,8 +15,6 @@ const TopSectionContainer = styled.div`
     justify-between
     px-3
     lg:px-12
-    border-2
-    border-purple-900
   `};
 `;
 
@@ -107,9 +105,10 @@ const StandaloneCar = styled.div`
   top: -5em;
   position: absolute;
   img {
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
     max-width: fit-content;
+    object-fit: cover;
   }
   @media (min-width: ${SCREENS.sm}) {
     height: 16em;
@@ -139,11 +138,11 @@ const TopSection = () => {
   return (
     <TopSectionContainer>
       <LeftContainer>
-        <Slogan>Rent The Best Qulity Car's With Us</Slogan>
+        <Slogan>Louez votre frigo en toute sérénité</Slogan>
         <Description>
-          Always choose the best car from our local stores or order it remotely
-          at the best price for you and get the best quality cars for as long as
-          you like
+          Le plus large choix de toute la côte Est disponible de suite dans nos
+          magasins But ou en commandant en ligne au meilleur prix. Obtenez la
+          meilleure qualité aussi longtemps que vous le souhaitez !
         </Description>
         <ButtonsContainer>
           <Button text="Book Your Ride" />
@@ -155,7 +154,7 @@ const TopSection = () => {
           <img src={blob} alt="Blob" />
         </BlobContainer>
         <StandaloneCar>
-          <img src={mclarenOrangeBig} alt="MclarenCarImg" />
+          <img src={miniFrigo} alt="Mini Frigo" />
         </StandaloneCar>
       </RightContainer>
     </TopSectionContainer>

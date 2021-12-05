@@ -8,7 +8,7 @@ const Logo = () => {
       <Image>
         <img src={CarLogoImg} alt="car" />
       </Image>
-      <LogoText>Yourcar.</LogoText>
+      <LogoText>TonFrigo❤️.</LogoText>
     </LogoContainer>
   );
 };

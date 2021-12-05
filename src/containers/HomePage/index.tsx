@@ -1,3 +1,4 @@
+import { BookCard } from "@components/bookCard";
 import styled from "styled-components";
 
 import tw from "twin.macro";
@@ -20,6 +21,7 @@ const HomePage = (props: Props) => {
   return (
     <PageContainer>
       <TopSection />
+      <BookCard />
     </PageContainer>
   );
 };
