@@ -138,11 +138,19 @@ const TopSection = () => {
   return (
     <TopSectionContainer>
       <LeftContainer>
+<<<<<<< HEAD
         <Slogan>Louez votre frigo en toute sérénité</Slogan>
         <Description>
           Le plus large choix de toute la côte Est disponible de suite dans nos
           magasins But ou en commandant en ligne au meilleur prix. Obtenez la
           meilleure qualité aussi longtemps que vous le souhaitez !
+=======
+        <Slogan>Rent The Best Qulity Car's With Us</Slogan>
+        <Description>
+          Always choose the best car from our local stores or order it remotely
+          at the best price for you and get the best quality cars for as long as
+          you like
+>>>>>>> Add reponsive menu nav bar and set items with props threw styled components
         </Description>
         <ButtonsContainer>
           <Button text="Book Your Ride" />
@@ -154,7 +162,11 @@ const TopSection = () => {
           <img src={blob} alt="Blob" />
         </BlobContainer>
         <StandaloneCar>
+<<<<<<< HEAD
           <img src={miniFrigo} alt="Mini Frigo" />
+=======
+          <img src={mclarenOrangeBig} alt="MclarenCarImg" />
+>>>>>>> Add reponsive menu nav bar and set items with props threw styled components
         </StandaloneCar>
       </RightContainer>
     </TopSectionContainer>
