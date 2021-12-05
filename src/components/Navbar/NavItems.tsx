@@ -66,7 +66,7 @@ const NavItemsDesktop = ({ navLinks }: any) => {
 };
 
 const NavItems = () => {
-  const isMobile = useMediaQuery({ maxWidth: SCREENS.sm });
+  const isMobile = !useMediaQuery({ minWidth: SCREENS.sm });
   return isMobile ? (
     <NavItemsMobile navLinks={navItemsLinksArray} />
   ) : (

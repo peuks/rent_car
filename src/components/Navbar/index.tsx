@@ -7,13 +7,13 @@ import NavItems from "./NavItems";
 const NavbarContainer = styled.div`
   min-height: 4.25rem; // 68px;
   ${tw` 
-   w-full
+    w-full
     max-w-screen-2xl
     flex
     flex-row
     items-center
-    lg:pl-12
-    lg:pr-12
+    px-4
+    lg:px-12
     justify-between
   `};
 `;
