@@ -9,8 +9,8 @@ module.exports = {
   webpack: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
-      "@components": (__dirname, 'src/components'),
-      "@images": (__dirname, 'src/assets/images')
+      '@components': path.resolve(__dirname, 'src/components'),
+      '@images': path.resolve(__dirname, 'src/assets/images/'),
     },
   },
 };

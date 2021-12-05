@@ -1,18 +1,20 @@
-import Logo from "components/Logo";
+// import Logo from "@components/Logo";
+import Logo from "@components/Logo";
 import styled from "styled-components";
 import tw from "twin.macro";
+import NavItems from "./NavItems";
 
 const NavbarContainer = styled.div`
-  min-height: 4.25rem; // 68px
-  ${tw`
-w-full
-max-w-screen-2xl
-flex
-flex-row
-items-center
-lg:pl-12
-lg:pr-12
-justify-center
+  min-height: 4.25rem; // 68px;
+  ${tw` 
+   w-full
+    max-w-screen-2xl
+    flex
+    flex-row
+    items-center
+    lg:pl-12
+    lg:pr-12
+    justify-between
   `};
 `;
 
@@ -23,6 +25,7 @@ export const Navbar = () => {
       <LogoContainer>
         <Logo />
       </LogoContainer>
+      <NavItems />
     </NavbarContainer>
   );
 };
