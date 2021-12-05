@@ -1,6 +1,6 @@
-import CarLogoImg from "@images/car-logo.png";
 import styled from "styled-components";
 import tw from "twin.macro";
+import CarLogoImg from "@images/car-logo.png";
 
 const Logo = () => {
   return (
